@@ -1,0 +1,30 @@
+/* SliderComponent.css */
+
+.container1{
+    overflow-x: hidden;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;  /* Automatically adjust the height to keep the image proportional */
+    max-height: 500px; /* Set a maximum height so it doesn't take too much vertical space */
+    object-fit: cover;  /* Ensures the image covers the entire space without stretching */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+
+  
