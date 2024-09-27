@@ -151,6 +151,9 @@ function Navbar() {
               <a href="#services" className="text-xl hover:underline">Services</a>
             </li>
             <li>
+              <a href="/testimonial" className="text-xl hover:underline">Testimonial</a>
+            </li>
+            <li>
               <a href="#contact" className="text-xl hover:underline">Contact</a>
             </li>
           </ul>

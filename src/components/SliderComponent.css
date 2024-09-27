@@ -1,19 +1,56 @@
+
+
 /* SliderComponent.css */
 
-.container1{
-    overflow-x: hidden;
+.background-slideshow{
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 600px;
+    margin-bottom: 30px;
+    position: relative;    
 }
 
-.slider-container {
+.slide-image {
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: slide-animation 30s infinite;
+  position: relative;
+  margin-left: 10px;
+}
+
+.slide-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Add a dark overlay for better text visibility */
+}
+
+/* Keyframes for slideshow */
+@keyframes slide-animation {
+  0% { transform: translateX(0); }
+  16% { transform: translateX(-100%); }
+  32% { transform: translateX(-200%); }
+  48% { transform: translateX(-300%); }
+  64% { transform: translateX(-400%); }
+  80% { transform: translateX(-500%); }
+  100% { transform: translateX(0); }
+}
+
+/* .slider-container {
     position: relative;
     overflow: hidden;
   }
   
   .slider-image {
     width: 100%;
-    height: auto;  /* Automatically adjust the height to keep the image proportional */
-    max-height: 500px; /* Set a maximum height so it doesn't take too much vertical space */
-    object-fit: cover;  /* Ensures the image covers the entire space without stretching */
+    height: auto;  
+    max-height: 500px;
+    object-fit: cover;  
   }
   
   .overlay-text {
@@ -25,6 +62,6 @@
     padding: 10px 20px;
     font-size: 24px;
     border-radius: 5px;
-  }
+  } */
 
   
