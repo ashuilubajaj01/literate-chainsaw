@@ -88,6 +88,8 @@ import React from 'react';
 import Navbar from './components/navbar';
 import Page1 from './components/Page1';
 import TestimonialPage from './components/TestimonialPage';
+import Team from './components/Team';
+import Contact from './components/contact';
 
 function App() {
 
@@ -96,6 +98,9 @@ function App() {
       <Navbar />
       <Page1 />
       <TestimonialPage/>
+      <Team/>
+      <Contact/>
+
     </>
   )
 }
