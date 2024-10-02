@@ -5,7 +5,6 @@ const Page1 = () => {
   return (
     <div>
       <SliderComponent />
-      <p>Here you can find some of the most iconic skyscrapers in the world.</p>
     </div>
   );
 };

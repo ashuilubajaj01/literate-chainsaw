@@ -90,6 +90,11 @@ import Page1 from './components/Page1';
 import TestimonialPage from './components/TestimonialPage';
 import Team from './components/Team';
 import Contact from './components/contact';
+import ServicesSection from './components/ServicesSection';
+import AboutUsSection from './components/AboutUsSection';
+import Deal from './components/Deals';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -97,9 +102,14 @@ function App() {
     <>
       <Navbar />
       <Page1 />
+      <ServicesSection />
+      <AboutUsSection />
+      <Deal />
       <TestimonialPage/>
       <Team/>
+      <FAQ />
       <Contact/>
+      <Footer />
 
     </>
   )
