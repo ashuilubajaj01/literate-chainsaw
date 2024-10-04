@@ -37,9 +37,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Facebook</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Instagram</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-white">Facebook</a></li> */}
               <li><a href="#" className="text-gray-400 hover:text-white">LinkedIn</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Instagram</a></li>
+              
               <li><a href="#" className="text-gray-400 hover:text-white">X</a></li>
             </ul>
           </div>
@@ -50,15 +51,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">Digital Marketing</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">Web Development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Cyber Security</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Graphic Design</a></li>
+            <li><a href="#" className="text-gray-400 hover:text-white">SEO Services</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-white">Graphic Design</a></li> */}
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; 2024 Created By: <span className="text-green-500">Erramix</span>
+            &copy; 2024 Created By: <span className="text-green-500">Our Team</span>
           </p>
           <div className="flex justify-center space-x-8 mt-4">
             <a href="#" className="text-gray-400 hover:text-white">Terms Of Use</a>

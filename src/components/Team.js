@@ -54,8 +54,8 @@ const getIcon = (iconName) => {
 
 const teamMembers = [
     {
-        name: 'Bodih Dgmas',
-        role: 'Front-End Developer',
+        name: 'Ashutosh Kumar Bajaj',
+        role: 'SoftWare Developer',
         aos: 'fade-right',
         delay: 200,
         socials: [

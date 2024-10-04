@@ -21,7 +21,7 @@ const ContactSection = () => {
                     </div>
                     <div className="flex items-center my-4">
                         <FaPhone className="text-3xl text-green-600 mx-4" />
-                        <h5 className="text-lg">+123 456 6789</h5>
+                        <h5 className="text-lg">+91 6205545358</h5>
                     </div>
                     <div className="flex items-center my-4">
                         <FaMapMarkerAlt className="text-3xl text-green-600 mx-4" />
@@ -73,6 +73,7 @@ const ContactSection = () => {
             <iframe
                 className="contact-map w-full h-64 mt-8 rounded-lg shadow-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335"
+                 title="Map of Oxford Street, London"
                 allowFullScreen=""
                 loading="lazy"
             ></iframe>

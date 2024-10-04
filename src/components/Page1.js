@@ -1,5 +1,6 @@
 import React from 'react';
 import page1 from '../images/page1.png'
+import JoinNow from './JoinNow';
 
 const FirstPage = () => {
   return (
@@ -26,9 +27,7 @@ const FirstPage = () => {
               <i className="fab fa-youtube"></i>
             </a>
           </div>
-          <a href="#" className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition">
-            Join Now
-          </a>
+          <JoinNow text="Join Now"/>
         </div>
 
         {/* Right Side: Image */}

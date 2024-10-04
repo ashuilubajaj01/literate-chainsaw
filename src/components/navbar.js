@@ -1,11 +1,11 @@
 import React from 'react';
-
+import JoinNow from './JoinNow';
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <div className="text-green-600 text-3xl font-bold">
+        <div className="cursor-pointer text-green-600 text-3xl font-bold">
           Techida
         </div>
 
@@ -21,11 +21,7 @@ const Navbar = () => {
         </ul>
 
         {/* Join Now Button */}
-        <div>
-          <a href="#" className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition">
-            Join Now
-          </a>
-        </div>
+        < JoinNow text="Join Now" />
       </div>
     </nav>
   );
