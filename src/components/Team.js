@@ -4,10 +4,10 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 const TeamSection = () => {
     return (
         <div className="container mx-auto py-16 px-4 lg:px-20">
-            <div className="text-center mb-12">
-                <span className="text-gray-500 text-sm font-bold">TEAM</span>
-                <h1 className="text-4xl font-bold mt-2" data-aos="fade-up" data-aos-delay="100">Our Team</h1>
-                <p className="text-lg text-gray-700 mx-auto max-w-2xl mt-4" data-aos="fade-up" data-aos-delay="150">
+            <div className="text-left mb-12">
+                <span className="text-green-500 text-sm font-bold">TEAM</span>
+                <h1 className="text-4xl font-bold " data-aos="fade-up" data-aos-delay="100">Our <span className="text-green-500">Team</span></h1>
+                <p className="text-lg text-gray-700 mx-auto mt-4 text-left" data-aos="fade-up" data-aos-delay="150">
                     As a matter of fact, the unification of the coherent software provides a strict control over the accomplishment of intended estimation.
                 </p>
             </div>

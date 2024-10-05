@@ -24,15 +24,15 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-16 px-4" id="services">
-            <div className="max-w-screen-lg mx-auto text-left mb-12">
+        <section className="py-16 px-4 lg:px-40" id="services">
+            <div className="text-left mb-12">
                 <span className="text-green-600 font-bold uppercase tracking-wide">Our Services</span>
                 <h2 className="text-4xl font-bold mt-2">What We're Offering?</h2>
-                <p className="text-lg text-gray-700  max-w-2xl mt-4">
+                <p className="text-lg text-gray-700 max-w-2xl mt-4">
                     As a matter of fact, the unification of the coherent software provides a strict control over the accomplishment of intended estimation.
                 </p>
             </div>
-            <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {services.map((service, index) => (
                     <div key={index} className="p-6 bg-gray-100 rounded-lg shadow-lg text-left transition-transform transform hover:scale-105 hover:shadow-lg">
                         {service.icon}

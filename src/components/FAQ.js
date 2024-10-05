@@ -29,8 +29,8 @@ const FAQ = () => {
     };
 
     return (
-        <section className="container py-10 px-4" id="faq">
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-4 px-2 lg:px-40">
+        <section className="container mx-auto py-16 px-4 lg:px-48" id="faq">
+            <div className="flex flex-col lg:flex-row items-start justify-center gap-8">
                 <div className="lg:w-1/2 flex justify-center" data-aos="fade-left" data-aos-delay="200">
                     <img src={faqImage} alt="FAQ" className="max-w-full h-80" />
                 </div>
@@ -39,13 +39,13 @@ const FAQ = () => {
                     <h2 className="text-4xl font-bold mt-2">Frequently Asked <span className="text-green-500">Questions</span></h2>
                     <div className="mt-4">
                         {faqs.map((faq, index) => (
-                            <div key={index} className="bg-gray-300 rounded-xl px-3 py-4 mt-5">
+                            <div key={index} className="bg-gray-300 rounded-xl px-4 py-4 mt-5">
                                 <div className="flex justify-between items-center">
                                     <h3 className="text-lg font-semibold cursor-pointer" onClick={() => toggleFAQ(index)}>
                                         {faq.question}
                                     </h3>
                                     <button onClick={() => toggleFAQ(index)} className="focus:outline-none">
-                                        {activeIndex === index ? <FaMinus /> : <FaPlus />}
+                                        {activeIndex === index ? <FaMinus className="text-green-600" /> : <FaPlus className="text-green-600" />}
                                     </button>
                                 </div>
                                 {activeIndex === index && (

@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-[#1C1D1C] text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap 4">
+      <div className="container mx-auto px-4 lg:px-48">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-start">
             <h2 className="text-green-500 text-3xl font-bold">Techida</h2>
             <p className="mt-4 text-sm">
@@ -37,22 +37,17 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <ul className="space-y-2">
-              {/* <li><a href="#" className="text-gray-400 hover:text-white">Facebook</a></li> */}
               <li><a href="#" className="text-gray-400 hover:text-white">LinkedIn</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">Instagram</a></li>
-              
               <li><a href="#" className="text-gray-400 hover:text-white">X</a></li>
             </ul>
           </div>
-
-          {/* Our Services */}
           <div>
             <h3 className="text-xl font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">Digital Marketing</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">Web Development</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">SEO Services</a></li>
-              {/* <li><a href="#" className="text-gray-400 hover:text-white">Graphic Design</a></li> */}
+              <li><a href="#" className="text-gray-400 hover:text-white">SEO Services</a></li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import page1 from '../images/page1.png'
+import page1 from '../images/page1.png';
 import JoinNow from './JoinNow';
 
 const FirstPage = () => {
@@ -13,24 +13,26 @@ const FirstPage = () => {
           <p className="text-[#F7F2F2] mb-8">
             At Any Rate, Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eaquip Amet, Quod Doloribus The Framework Of The Essence.
           </p>
+          
           <div className="flex space-x-4 mb-8">
-            <a href="#" className="bg-gray-200 text-green-600 p-2 rounded-full">
+            <a href="#" className="bg-gray-200 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition duration-300">
               <i className="fab fa-facebook"></i>
             </a>
-            <a href="#" className="bg-gray-200 text-green-600 p-2 rounded-full">
+            <a href="#" className="bg-gray-200 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition duration-300">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="bg-gray-200 text-green-600 p-2 rounded-full">
-              <i className="fab fa-twitter"></i> 
+            <a href="#" className="bg-gray-200 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition duration-300">
+              <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="bg-gray-200 text-green-600 p-2 rounded-full">
+            <a href="#" className="bg-gray-200 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition duration-300">
               <i className="fab fa-youtube"></i>
             </a>
           </div>
-          <JoinNow text="Join Now"/>
+
+          <JoinNow text="Join Now" />
         </div>
 
-        {/* Right Side: Image */}
+        
         <div className="flex justify-center">
           <img
             src={page1}
