@@ -20,10 +20,10 @@ const TeamSection = () => {
                             </div>
                             <div className="p-4 text-center">
                                 <h3 className="my-2 text-xl font-semibold">{member.name}</h3>
-                                <h6 className="text-gray-600 mb-4">{member.role}</h6>
+                                <h6 className="text-gray-800 mb-4 font-medium">{member.role}</h6>
                                 <div className="flex justify-center space-x-4">
                                     {member.socials.map((social, idx) => (
-                                        <a href={social.link} key={idx} className="text-gray-600 hover:text-gray-800 transition-colors duration-300 text-2xl">
+                                        <a href={social.link} key={idx} className="text-green-600 hover:text-green-800 transition-colors duration-300 text-2xl">
                                             {getIcon(social.icon)}
                                         </a>
                                     ))}
@@ -55,7 +55,7 @@ const getIcon = (iconName) => {
 const teamMembers = [
     {
         name: 'Ashutosh Kumar Bajaj',
-        role: 'SoftWare Developer',
+        role: 'Software Developer',
         aos: 'fade-right',
         delay: 200,
         socials: [
