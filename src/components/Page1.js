@@ -4,7 +4,7 @@ import JoinNow from './JoinNow';
 
 const FirstPage = () => {
   return (
-    <div className="bg-[#3AA1A8] py-32 mt-8">
+    <div className="bg-[#53989d] py-32 mt-8">
       <div className="container mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-[46px] font-bold text-[#F7F2F2] mb-4">

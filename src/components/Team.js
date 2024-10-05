@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const TeamSection = () => {
     return (
-        <div className="container mx-auto py-16 px-4 lg:px-20">
+        <div className="container mx-auto py-16 px-4 lg:px-52">
             <div className="text-left mb-12">
                 <span className="text-green-500 text-sm font-bold">TEAM</span>
                 <h1 className="text-4xl font-bold " data-aos="fade-up" data-aos-delay="100">Our <span className="text-green-500">Team</span></h1>

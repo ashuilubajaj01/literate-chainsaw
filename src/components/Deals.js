@@ -3,7 +3,7 @@ import dealImage from '../images/aboutus2.png';
 
 const Deal = () => {
     return (
-        <section className="py-16 px-4 lg:px-40" id="about-us">
+        <section className="py-16 px-4 lg:px-52" id="about-us">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
                 {/* Image section */}
                 <div className="lg:w-1/2 flex justify-center" data-aos="fade-left" data-aos-delay="200">
@@ -11,7 +11,7 @@ const Deal = () => {
                 </div>
 
                 {/* Text and buttons section */}
-                <div className="lg:w-1/2" data-aos="fade-right" data-aos-delay="100">
+                <div className="lg:w-5/2" data-aos="fade-right" data-aos-delay="100">
                     <h2 className="text-4xl font-bold mt-2">
                         We Deal With The Aspects Of Professional <span className="text-green-500">IT Services</span>
                     </h2>

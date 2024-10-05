@@ -3,10 +3,10 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaInstagram } from 'react-icons/fa
 
 const ContactSection = () => {
     return (
-        <section className="container mx-auto py-16 px-4 lg:px-48" id="contact">
+        <section className="container mx-auto py-16 px-4 lg:px-52" id="contact">
             <div className="text-left mb-12">
                 <span className="text-green-600 uppercase tracking-wide text-sm font-bold">Contact</span>
-                <h2 className="text-4xl font-bold mt-2">Contact Us For Any Questions</h2>
+                <h2 className="text-4xl font-bold mt-2">Contact Us For Any <span className="text-green-500">Questions</span></h2>
                 <p className="text-lg text-gray-700 max-w-2xl mt-4">
                     As a matter of fact, the unification of the coherent software provides a strict control over the accomplishment of intended estimation.
                 </p>
