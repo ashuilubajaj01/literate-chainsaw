@@ -27,7 +27,7 @@ const ServicesSection = () => {
         <section className="py-16 px-4 lg:px-40" id="services">
             <div className="text-left mb-12">
                 <span className="text-green-600 font-bold uppercase tracking-wide">Our Services</span>
-                <h2 className="text-4xl font-bold mt-2">What We're Offering?</h2>
+                <h2 className="text-4xl font-bold mt-2">What We're <span className='text-green-500'>Offering?</span></h2>
                 <p className="text-lg text-gray-700 max-w-2xl mt-4">
                     As a matter of fact, the unification of the coherent software provides a strict control over the accomplishment of intended estimation.
                 </p>

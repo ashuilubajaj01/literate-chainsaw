@@ -60,9 +60,9 @@ const TestimonialPage = () => {
   return (
     <div className="max-w-screen-lg mx-auto py-12 px-4 lg:px-0">
       <div className="mb-10">
-        <h1 className="text-green-500 text-sm font-bold">OUR TESTIMONIAL</h1>
-        <h2 className="text-5xl font-bold text-gray-900 mb-4 text-left">
-          What Our Customers are Talking<br /><span className="text-green-500"> About us</span>
+        <h2 className="text-green-500 text-sm font-bold">OUR TESTIMONIAL</h2>
+        <h2 className="text-4xl font-bold text-gray-900 mb-4 text-left">
+          What Our Customers are Talking<span className="text-green-500"> About us</span>
         </h2>
       </div>
 
