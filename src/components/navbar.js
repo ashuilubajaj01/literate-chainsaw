@@ -30,9 +30,9 @@ const Navbar = () => {
 
         
         <ul className={`hidden lg:flex space-x-6 text-gray-600 font-medium`}>
-          <li><a href="#" className="hover:text-green-600">Home</a></li>
-          <li><a href="#" className="hover:text-green-600">About</a></li>
-          <li><a href="#" className="hover:text-green-600">Services</a></li>
+          <li><a href="/" className="hover:text-green-600">Home</a></li>
+          <li><a href="/about-us" className="hover:text-green-600">About</a></li>
+          <li><a href="/services" className="hover:text-green-600">Services</a></li>
           <li><a href="#" className="hover:text-green-600">Pages</a></li>
           <li><a href="#" className="hover:text-green-600">Portfolio</a></li>
           <li><a href="#" className="hover:text-green-600">Blog</a></li>
@@ -49,9 +49,9 @@ const Navbar = () => {
       {isOpen && (
         <div className="lg:hidden">
           <ul className="flex flex-col space-y-4 mt-4 text-gray-600 font-medium bg-gray-50 bg-opacity-90 backdrop-filter backdrop-blur-md px-6 py-4 shadow-md">
-            <li><a href="#" className="hover:text-green-600">Home</a></li>
-            <li><a href="#" className="hover:text-green-600">About</a></li>
-            <li><a href="#" className="hover:text-green-600">Services</a></li>
+            <li><a href="/" className="hover:text-green-600">Home</a></li>
+            <li><a href="/about-us" className="hover:text-green-600">About</a></li>
+            <li><a href="/services" className="hover:text-green-600">Services</a></li>
             <li><a href="#" className="hover:text-green-600">Pages</a></li>
             <li><a href="#" className="hover:text-green-600">Portfolio</a></li>
             <li><a href="#" className="hover:text-green-600">Blog</a></li>

@@ -24,7 +24,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-16 px-4 lg:px-40" id="services">
+        <section className="py-16 px-4 mt-10 lg:px-40" id="services">
             <div className="text-left mb-12">
                 <span className="text-green-600 font-bold uppercase tracking-wide">Our Services</span>
                 <h2 className="text-4xl font-bold mt-2">What We're <span className='text-green-500'>Offering?</span></h2>

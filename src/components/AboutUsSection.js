@@ -1,9 +1,11 @@
 import React from 'react';
 import aboutUsImage from '../images/aboutus.png'; 
+import Deal from './Deals';
 
 const AboutUsSection = () => {
     return (
-        <section className="container py-10 px-4 lg:px-40" id="about-us">
+        <>
+        <section className="container mt-10 py-10 px-4 lg:px-40" id="about-us">
             <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
                 <div className="lg:w-1/2" data-aos="fade-right" data-aos-delay="100">
                     <span className="text-green-500 text-sm font-bold">ABOUT US</span>
@@ -23,6 +25,8 @@ const AboutUsSection = () => {
                 </div>
             </div>
         </section>
+        <Deal />
+        </>
     );
 };
 

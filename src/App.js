@@ -86,30 +86,26 @@
 
 import React from 'react';
 import Navbar from './components/navbar';
-import Page1 from './components/Page1';
-import TestimonialPage from './components/TestimonialPage';
-import Team from './components/Team';
-import Contact from './components/contact';
-import ServicesSection from './components/ServicesSection';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './components/Home';
 import AboutUsSection from './components/AboutUsSection';
-import Deal from './components/Deals';
-import FAQ from './components/FAQ';
+import ServicesSection from './components/ServicesSection';
 import Footer from './components/Footer';
 
 function App() {
 
   return(
     <>
+      <Router>
+        <Routes>
+          <Route  path='/' element={<Home />} />
+          <Route  path='/about-us' element={<AboutUsSection /> } />
+          <Route  path='/services' element={<ServicesSection />} />
+        </Routes>
+      </Router>
       <Navbar />
-      <Page1 />
-      <ServicesSection />
-      <AboutUsSection />
-      <Deal />
-      <TestimonialPage/>
-      <Team/>
-      <FAQ />
-      <Contact/>
       <Footer />
+
 
     </>
   )
