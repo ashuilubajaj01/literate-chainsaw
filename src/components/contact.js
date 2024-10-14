@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
     return (
-        <section className="container mx-auto py-16 px-4 lg:px-52" id="contact">
+        <section className="container mx-auto py-16 px-4 lg:px-52" id="Contact">
             <div className="text-left mb-12">
                 <span className="text-green-600 uppercase tracking-wide text-sm font-bold">Contact</span>
                 <h2 className="text-4xl font-bold mt-2">Contact Us For Any <span className="text-green-500">Questions</span></h2>
@@ -34,7 +34,7 @@ const Contact = () => {
                     </div> */}
                 </div>
                 <div className="lg:w-1/2">
-                    <form className="main-form" id="contact-us-form" action="contact.php" method="post">
+                    <form className="main-form" id="contact-us-form" action="" method="post">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
                             <input
                                 placeholder="Name"

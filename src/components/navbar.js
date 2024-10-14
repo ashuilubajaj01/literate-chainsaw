@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* <li><a href="#" className="hover:text-green-600">Pages</a></li> */}
           {/* <li><a href="#" className="hover:text-green-600">Portfolio</a></li> */}
           {/* <li><a href="#" className="hover:text-green-600">Blog</a></li> */}
-          <li><a href="/contact" className="hover:text-green-600">Contact Us</a></li>
+          <li><a href="/Contact" className="hover:text-green-600">Contact Us</a></li>
         </ul>
 
         
@@ -56,7 +56,7 @@ const Navbar = () => {
             {/* <li><a href="#" className="hover:text-green-600">Pages</a></li> */}
             {/* <li><a href="#" className="hover:text-green-600">Portfolio</a></li> */}
             {/* <li><a href="#" className="hover:text-green-600">Blog</a></li> */}
-            <li><a href="/contact" className="hover:text-green-600">Contact Us</a></li>
+            <li><a href="/Contact" className="hover:text-green-600">Contact Us</a></li>
           </ul>
         </div>
       )}
