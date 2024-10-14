@@ -5,7 +5,7 @@ import AboutUsSection from './AboutUsSection';
 import TestimonialPage from './TestimonialPage';
 import Team from './Team';
 import FAQ from './FAQ';
-import Contact from './contact';
+import Contact from './Contact';
 
 const Home = () => {
     return(
@@ -13,7 +13,7 @@ const Home = () => {
             <FirstPage />
             <ServicesSection />
             <AboutUsSection />
-            <TestimonialPage/>
+            {/* <TestimonialPage/> */}
             <Team/>
             <FAQ />
             <Contact/>

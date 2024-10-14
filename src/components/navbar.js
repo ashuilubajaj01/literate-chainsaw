@@ -12,8 +12,8 @@ const Navbar = () => {
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <div className="cursor-pointer text-green-600 text-3xl font-bold">
-          Techida
+        <div className="cursor-pointer text-green-600 text-3xl font-bold" onClick={() => window.location.reload()}>
+        Codovite
         </div>
 
         <div className="flex items-center lg:hidden">
@@ -33,10 +33,11 @@ const Navbar = () => {
           <li><a href="/" className="hover:text-green-600">Home</a></li>
           <li><a href="/about-us" className="hover:text-green-600">About</a></li>
           <li><a href="/services" className="hover:text-green-600">Services</a></li>
-          <li><a href="#" className="hover:text-green-600">Pages</a></li>
-          <li><a href="#" className="hover:text-green-600">Portfolio</a></li>
-          <li><a href="#" className="hover:text-green-600">Blog</a></li>
-          <li><a href="#" className="hover:text-green-600">Contact Us</a></li>
+          <li><a href="/FAQ" className="hover:text-green-600">FAQ</a></li>
+          {/* <li><a href="#" className="hover:text-green-600">Pages</a></li> */}
+          {/* <li><a href="#" className="hover:text-green-600">Portfolio</a></li> */}
+          {/* <li><a href="#" className="hover:text-green-600">Blog</a></li> */}
+          <li><a href="/contact" className="hover:text-green-600">Contact Us</a></li>
         </ul>
 
         
@@ -52,15 +53,34 @@ const Navbar = () => {
             <li><a href="/" className="hover:text-green-600">Home</a></li>
             <li><a href="/about-us" className="hover:text-green-600">About</a></li>
             <li><a href="/services" className="hover:text-green-600">Services</a></li>
-            <li><a href="#" className="hover:text-green-600">Pages</a></li>
-            <li><a href="#" className="hover:text-green-600">Portfolio</a></li>
-            <li><a href="#" className="hover:text-green-600">Blog</a></li>
-            <li><a href="#" className="hover:text-green-600">Contact Us</a></li>
+            {/* <li><a href="#" className="hover:text-green-600">Pages</a></li> */}
+            {/* <li><a href="#" className="hover:text-green-600">Portfolio</a></li> */}
+            {/* <li><a href="#" className="hover:text-green-600">Blog</a></li> */}
+            <li><a href="/contact" className="hover:text-green-600">Contact Us</a></li>
           </ul>
         </div>
       )}
     </nav>
+
+
+
+
   );
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

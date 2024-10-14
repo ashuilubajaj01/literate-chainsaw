@@ -90,7 +90,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './components/Home';
 import AboutUsSection from './components/AboutUsSection';
 import ServicesSection from './components/ServicesSection';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ';
 
 function App() {
 
@@ -101,6 +103,9 @@ function App() {
           <Route  path='/' element={<Home />} />
           <Route  path='/about-us' element={<AboutUsSection /> } />
           <Route  path='/services' element={<ServicesSection />} />
+          <Route  path='/contact'  element={<Contact />}/>
+          <Route  path='/FAQ'  element={<FAQ />}/>
+          
         </Routes>
       </Router>
       <Navbar />

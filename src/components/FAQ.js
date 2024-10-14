@@ -12,7 +12,7 @@ const FAQ = () => {
         },
         {
             question: 'How can I contact support?',
-            answer: 'You can reach out to our support team via the contact form on our website or email us directly.'
+            answer: 'You can reach out to our support team via the contact form on our website or email us directly or you can whatsapp us on +916205545358.'
         },
         {
             question: 'What are your business hours?',

@@ -2,16 +2,16 @@ import React from 'react';
 import page1 from '../images/page1.png';
 import JoinNow from './JoinNow';
 
-const FirstPage = () => {
+const Page1 = () => {
   return (
     <div className="bg-[#53989d] py-32 mt-8">
       <div className="container mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-[46px] font-bold text-[#F7F2F2] mb-4">
-            Excellent IT <span className="text-green-600">Solutions</span> For Your Success
+            Excellent IT <span className="text-green-600">Solutions</span> for Your Business.
           </h1>
           <p className="text-[#F7F2F2] mb-8">
-            At Any Rate, Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eaquip Amet, Quod Doloribus The Framework Of The Essence.
+          At Codovite, we offer tailored IT solutions to optimize your operations and drive success.
           </p>
           
           <div className="flex space-x-4 mb-8">
@@ -45,4 +45,4 @@ const FirstPage = () => {
   );
 };
 
-export default FirstPage;
+export default Page1;

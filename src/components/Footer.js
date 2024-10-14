@@ -6,9 +6,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-48">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-start bg-[#282a28] p-6 rounded-xl">
-            <h2 className="text-green-500 text-3xl font-bold">Techida</h2>
+          <div className="cursor-pointer" onClick={() => window.location.reload()}>
+    <h2 className="text-green-500 text-3xl font-bold">Codovite</h2>
+</div>
             <p className="mt-4 text-sm">
-              Lorem Ipsum Dolor Sit Amet Aspernatur Exercitationem Fugiat.
+            Transforming ideas into innovative digital solutions for a smarter tomorrow.
             </p>
             <div className="flex mt-4 space-x-4">
               <a href="#" className="text-green-500">

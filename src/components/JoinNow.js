@@ -4,7 +4,7 @@ const JoinNow = ({text}) => {
   return (
 
 <div>
-          <a href="#" 
+          <a href="https://wa.me/+916205545358" 
           className="bg-green-600 text-white px-6 py-2 rounded-full transition"
           style={{ transition: 'background-color 0.3s, color 0.3s' }}
           onMouseEnter={(e) => {
@@ -15,6 +15,7 @@ const JoinNow = ({text}) => {
            e.currentTarget.style.backgroundColor = '#16A34A'; // Original green color
             e.currentTarget.style.color = '#fff'; // Change text color back to white
           }}
+          target="_blank"
           >
             {text}
           </a>

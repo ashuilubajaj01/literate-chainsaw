@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaInstagram } from 'react-icons/fa';
 
-const ContactSection = () => {
+import emailjs from 'emailjs-com';
+
+const Contact = () => {
     return (
         <section className="container mx-auto py-16 px-4 lg:px-52" id="contact">
             <div className="text-left mb-12">
@@ -16,7 +18,7 @@ const ContactSection = () => {
                     <h2 className="text-2xl font-semibold mb-4">Contact Info:</h2>
                     <div className="flex items-center my-4">
                         <FaEnvelope className="text-3xl text-green-600 mx-4" />
-                        <h5 className="text-lg">example@example.com</h5>
+                        <h5 className="text-lg">@codovite@gmail.com</h5>
                     </div>
                     <div className="flex items-center my-4">
                         <FaPhone className="text-3xl text-green-600 mx-4" />
@@ -24,12 +26,12 @@ const ContactSection = () => {
                     </div>
                     <div className="flex items-center my-4">
                         <FaMapMarkerAlt className="text-3xl text-green-600 mx-4" />
-                        <h5 className="text-lg">A108 Adam Street, New York, NY 535022</h5>
+                        <h5 className="text-lg">Senior Boys Hostel, BVB, Hubli</h5>
                     </div>
-                    <div className="flex items-center my-4">
+                    {/* <div className="flex items-center my-4">
                         <FaInstagram className="text-3xl text-green-600 mx-4" />
-                        <h5 className="text-lg">techida-company</h5>
-                    </div>
+                        <h5 className="text-lg">CodoVite-company</h5>
+                    </div> */}
                 </div>
                 <div className="lg:w-1/2">
                     <form className="main-form" id="contact-us-form" action="contact.php" method="post">
@@ -80,4 +82,4 @@ const ContactSection = () => {
     );
 };
 
-export default ContactSection;
+export default Contact;

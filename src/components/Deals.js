@@ -20,13 +20,13 @@ const Deal = () => {
                             <i className="fas fa-globe mr-3 text-green-500"></i> Worldwide Services
                         </button>
                         <button className="bg-gray-200 rounded-md p-4 flex items-center justify-center shadow-md hover:bg-gray-300 transition duration-300">
-                            <i className="fas fa-clock mr-3 text-green-500"></i> Support 24h/24
+                            <i className="fas fa-clock mr-3 text-green-500"></i> Support 24/7
                         </button>
                         <button className="bg-gray-200 rounded-md p-4 flex items-center justify-center shadow-md hover:bg-gray-300 transition duration-300">
                             <i className="fas fa-phone mr-3 text-green-500"></i> Easy To Reach
                         </button>
                         <button className="bg-gray-200 rounded-md p-4 flex items-center justify-center shadow-md hover:bg-gray-300 transition duration-300">
-                            <i className="fas fa-medal mr-3 text-green-500"></i> First On Field
+                            <i className="fas fa-medal mr-3 text-green-500"></i> Best Services
                         </button>
                     </div>
                 </div>

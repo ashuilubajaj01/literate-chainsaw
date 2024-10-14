@@ -5,19 +5,19 @@ const services = [
     {
         icon: <FaCode className="text-green-600 text-5xl mb-4" />,
         title: 'Web Development',
-        description: 'Our team of skilled developers creates responsive and user-friendly websites that are tailored to meet your business needs, ensuring a seamless user experience across all devices.',
+        description: 'Our expert developers build responsive and intuitive websites designed to fit your business requirements, providing a smooth user experience on all devices.',
         link: 'Learn More →',
     },
     {
         icon: <FaBullhorn className="text-green-600 text-5xl mb-4" />,
         title: 'Digital Marketing',
-        description: 'We offer comprehensive digital marketing services, including SEO, PPC, and social media marketing, to help you reach a wider audience and achieve your business goals.',
+        description: 'We provide a full range of digital marketing solutions, such as PPC, content marketing, and social media marketing, designed to expand your audience and help you achieve your business objectives.',
         link: 'Learn More →',
     },
     {
         icon: <FaSearch className="text-green-600 text-5xl mb-4" />,
         title: 'SEO Services',
-        description: 'Our SEO experts implement proven strategies to enhance your website visibility on search engines, driving more organic traffic and improving your online presence.',
+        description: 'Our digital marketing specialists employ effective strategies to boost your website\'s visibility on search engines, increasing organic traffic and enhancing your online presence.',
         link: 'Learn More →',
     },
 ];
@@ -29,7 +29,7 @@ const ServicesSection = () => {
                 <span className="text-green-600 font-bold uppercase tracking-wide">Our Services</span>
                 <h2 className="text-4xl font-bold mt-2">What We're <span className='text-green-500'>Offering?</span></h2>
                 <p className="text-lg text-gray-700 max-w-2xl mt-4">
-                    As a matter of fact, the unification of the coherent software provides a strict control over the accomplishment of intended estimation.
+                The integration of cohesive software ensures effective control over achieving the desired outcomes.
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
