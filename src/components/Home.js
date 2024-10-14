@@ -5,7 +5,7 @@ import AboutUsSection from './AboutUsSection';
 import TestimonialPage from './TestimonialPage';
 import Team from './Team';
 import FAQ from './FAQ';
-import Contact from './Contact';
+import Contact from './contact';
 
 const Home = () => {
     return(

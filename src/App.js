@@ -90,7 +90,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './components/Home';
 import AboutUsSection from './components/AboutUsSection';
 import ServicesSection from './components/ServicesSection';
-import Contact from './components/Contact';
+import Contact from './components/contact';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 
@@ -103,7 +103,7 @@ function App() {
           <Route  path='/' element={<Home />} />
           <Route  path='/about-us' element={<AboutUsSection /> } />
           <Route  path='/services' element={<ServicesSection />} />
-          <Route  path='/Contact'  element={<Contact />}/>
+          <Route  path='/Contact'  element={<Contact/>}/>
           <Route  path='/FAQ'  element={<FAQ />}/>
           
         </Routes>
