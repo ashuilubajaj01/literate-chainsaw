@@ -29,7 +29,7 @@ const FAQ = () => {
     };
 
     return (
-        <section className="container mx-auto py-16 px-4 lg:px-48" id="faq">
+        <section className="container mx-auto mt-10 py-16 px-4 lg:px-48" id="faq">
             <div className="flex flex-col lg:flex-row items-start justify-center gap-8">
                 <div className="lg:w-1/2 flex justify-center" data-aos="fade-left" data-aos-delay="200">
                     <img src={faqImage} alt="FAQ" className="max-w-full h-80" />
